@@ -1,49 +1,109 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Aerial by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jayakrishnan Nanthakumar | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #1e1e2f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      color: #1e1e2f;
+      margin-bottom: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+    }
+    .contact {
+      background: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    .contact a {
+      color: #ffb347;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Adam Jensen</h1>
-						<p>Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this</p>
-						<nav>
-							<ul>
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+  <header>
+    <h1>Jayakrishnan Nanthakumar</h1>
+    <p>Software Engineer | Java Developer | Project Manager</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I’m a dedicated software developer with hands-on experience in Java, Spring Boot, JavaScript, and Project Management. Currently pursuing a Master's in Project Management in Berlin, I thrive in Agile environments and enjoy delivering impactful, client-focused solutions.</p>
+    </div>
+  </section>
 
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+  <section class="section" id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Java (Core & Advanced), Spring Boot, JSP/Servlets, JPA</li>
+        <li>JavaScript, Oracle SQL/PLSQL, MySQL</li>
+        <li>RESTful & SOAP Web Services, Shell Scripting, UNIX/Linux</li>
+        <li>JIRA, Agile/Scrum, CI/CD Pipelines, Docker, Git</li>
+        <li>Project Management Tools & Techniques</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Bank of India CRM</h3>
+      <p>Developed Java Spring Boot applications and RESTful APIs for CRM and banking software. Worked onsite with stakeholders to gather requirements and manage Oracle databases efficiently.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:krishna.nantha1999@gmail.com">krishna.nantha1999@gmail.com</a></p>
+    <p>📞 +49 017671907205</p>
+    <p>🔗 <a href="https://www.linkedin.com/in/jayakrishnan-nanthakumar/" target="_blank">LinkedIn Profile</a></p>
+  </section>
+
+</body>
 </html>
