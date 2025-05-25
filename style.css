@@ -34,7 +34,8 @@ a:hover {
 }
 
 header {
-  background: linear-gradient(135deg, #0a66c2, #004182);
+background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
   color: white;
   padding: 3rem 1.5rem;
   text-align: center;
