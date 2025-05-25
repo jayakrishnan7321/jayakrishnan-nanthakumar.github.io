@@ -1,109 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jayakrishnan Nanthakumar | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-    body {
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #1e1e2f;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    .section {
-      padding: 4rem 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .section h2 {
-      font-size: 2rem;
-      color: #1e1e2f;
-      margin-bottom: 1rem;
-    }
-    .card {
-      background: white;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      margin-bottom: 2rem;
-    }
-    .contact {
-      background: #1e1e2f;
-      color: white;
-      text-align: center;
-      padding: 2rem;
-    }
-    .contact a {
-      color: #ffb347;
-      text-decoration: none;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jayakrishnan Nanthakumar Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
     <h1>Jayakrishnan Nanthakumar</h1>
-    <p>Software Engineer | Java Developer | Project Manager</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <p>Software Developer | Java | Spring Boot | Project Management</p>
+    <div class="contact">
+      <p>📍 Berlin, Germany</p>
+      <p>📧 <a href="mailto:krishna.nantha1999@gmail.com">krishna.nantha1999@gmail.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/jayakrishnan-nanthakumar/" target="_blank">LinkedIn</a></p>
+    </div>
   </header>
 
-  <section class="section" id="about">
+  <section>
     <h2>About Me</h2>
-    <div class="card">
-      <p>I’m a dedicated software developer with hands-on experience in Java, Spring Boot, JavaScript, and Project Management. Currently pursuing a Master's in Project Management in Berlin, I thrive in Agile environments and enjoy delivering impactful, client-focused solutions.</p>
-    </div>
+    <p>
+      A dynamic and dedicated software developer with a passion for continuous learning and delivering impactful solutions. Known for technical excellence and a client-focused approach, I thrive in fast-paced environments and enjoy building high-quality, resilient software.
+    </p>
   </section>
 
-  <section class="section" id="skills">
-    <h2>Skills</h2>
-    <div class="card">
+  <section>
+    <h2>Experience</h2>
+    <div class="experience">
+      <h3>Software Engineer – Inspirisys Solutions Limited</h3>
+      <p><em>Chennai, India | Mar 2022 - Jul 2023</em></p>
       <ul>
-        <li>Java (Core & Advanced), Spring Boot, JSP/Servlets, JPA</li>
-        <li>JavaScript, Oracle SQL/PLSQL, MySQL</li>
-        <li>RESTful & SOAP Web Services, Shell Scripting, UNIX/Linux</li>
-        <li>JIRA, Agile/Scrum, CI/CD Pipelines, Docker, Git</li>
-        <li>Project Management Tools & Techniques</li>
+        <li>Built Java apps using JEE, Spring Boot, Primefaces, and RESTful APIs.</li>
+        <li>Optimized database queries (Oracle SQL/PLSQL) and shell scripts.</li>
+        <li>Reduced bugs by 30% with strong CI/CD and Agile practices.</li>
+      </ul>
+
+      <h3>Junior Engineer – Sriram Industries</h3>
+      <p><em>Chennai, India | Aug 2021 - Mar 2022</em></p>
+      <ul>
+        <li>Developed Java apps in Windchill with REST API integration.</li>
+        <li>Automated systems with Java and PLC integration.</li>
       </ul>
     </div>
   </section>
 
-  <section class="section" id="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>Bank of India CRM</h3>
-      <p>Developed Java Spring Boot applications and RESTful APIs for CRM and banking software. Worked onsite with stakeholders to gather requirements and manage Oracle databases efficiently.</p>
-    </div>
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>MSc in Project Management</strong>, Arden University, Berlin (2023–2025)</li>
+      <li><strong>B.E. in Mechatronics</strong>, Anna University, Chennai (2017–2021)</li>
+    </ul>
   </section>
 
-  <section class="contact" id="contact">
-    <h2>Contact</h2>
-    <p>📧 <a href="mailto:krishna.nantha1999@gmail.com">krishna.nantha1999@gmail.com</a></p>
-    <p>📞 +49 017671907205</p>
-    <p>🔗 <a href="https://www.linkedin.com/in/jayakrishnan-nanthakumar/" target="_blank">LinkedIn Profile</a></p>
+  <section>
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Java, Spring Boot, JEE, JSP/Servlets</li>
+      <li>JavaScript, Primefaces, Oracle SQL/PLSQL, MySQL</li>
+      <li>REST & SOAP APIs, XML/JSON</li>
+      <li>JIRA, Git, Shell Scripting, CI/CD (Jenkins), Docker</li>
+      <li>Agile, OOP, TDD, Eclipse, Tomcat</li>
+    </ul>
   </section>
 
+  <section>
+    <h2>Project</h2>
+    <h3>Bank of India CRM Modules – DXC Technologies</h3>
+    <ul>
+      <li>Developed Java Spring Boot apps for banking solutions.</li>
+      <li>Created REST APIs and managed Oracle DB interactions.</li>
+      <li>Collaborated with clients and teams onsite.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <p>Tamil – C2 | English – C1 | German – A2</p>
+  </section>
+
+  <section>
+    <h2>Hobbies</h2>
+    <p>Travel, Cricket, Music</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Jayakrishnan Nanthakumar</p>
+  </footer>
 </body>
 </html>
