@@ -34,20 +34,28 @@ a:hover {
 }
 
 @keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 header {
   background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
-  background-size: 400% 400%;
-  animation: gradientShift 10s ease infinite;
+  background-size: 300% 300%;
+  animation: gradientShift 15s ease infinite;
+
   color: white;
   padding: 3rem 1.5rem;
   text-align: center;
   border-bottom: 6px solid #e6f0ff;
 }
+
 
 header h1 {
   font-size: 2.8rem;
